@@ -1,0 +1,29 @@
+{
+        "name": "minichat2",
+        "version": "1.0.0",
+        "description": "",
+        "main": "index.js",
+        "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1",
+                "start": "node index.js",
+                "start:dev": "nodemon index.js"
+        },
+        "engines": {
+                "node": "14.2.0"
+        },
+        "author": "",
+        "license": "ISC",
+        "dependencies": {
+                "compression": "^1.7.4",
+                "ejs": "^3.1.3",
+                "express": "^4.17.1",
+                "helmet": "^3.23.1",
+                "lodash": "^4.17.15",
+                "moment": "^2.27.0",
+                "mongoose": "^5.9.19",
+                "socket.io": "^2.3.0"
+        },
+        "devDependencies": {
+                "nodemon": "^2.0.4"
+        }
+}
